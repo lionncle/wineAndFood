@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 
+import '../styles.scss';
+
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
   name = 'Angular';
