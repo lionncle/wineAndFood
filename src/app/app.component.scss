@@ -1,7 +1,9 @@
-main {
-  padding: 1em;
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+h1 {
+  color: #369;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin-top: 50px;
-  display: block;
+  font-size: 250%;
 }
